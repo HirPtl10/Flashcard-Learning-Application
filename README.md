@@ -41,6 +41,20 @@ python main.py
 
 Tkinter is included with most standard Python installations. On some Linux distributions it may need to be installed separately through the operating system package manager.
 
+### macOS with Homebrew Python 3.14
+
+If you installed Python 3.14 using Homebrew and the `python3` command uses a different Python installation, run the app with the Homebrew interpreter directly:
+
+```bash
+/opt/homebrew/opt/python@3.14/bin/python3.14 main.py
+```
+
+This is the command confirmed to work for this project setup. Homebrew Python 3.14 also needs its matching Tkinter package, which can be installed with:
+
+```bash
+brew install python-tk@3.14
+```
+
 ## Viva Preparation
 
 1. **Why did you use a dictionary?**  
